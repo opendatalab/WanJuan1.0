@@ -1,7 +1,7 @@
 # 书生·万卷多模态语料库
 
 
-![Image1](./images/01_宣传图.png)
+![Image](./images/01_宣传图.png)
 
 
 ## 书生·万卷1.0
@@ -23,7 +23,7 @@
 
 - 组成
 
-![Image2](./images/NLP_composition.png)
+![Image](./images/NLP_composition.png)
 
 - 样例
 
@@ -77,7 +77,7 @@
 
 - 组成
 
-![Image4](./images/Video_composition.png)
+![Image](./images/Video_composition.png)
 
 ## 下载地址
 
