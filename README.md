@@ -86,6 +86,10 @@
 
 ![Image4](./images/Video_composition.png)
 
+## 下载地址
+
+完整数据集下载请前往：https://opendatalab.org.cn/WanJuan1.0
+
 ## 许可
 
 书生·万卷1.0整体采用CC BY 4.0许可协议。您可以自由共享、改编该数据集，唯需遵循以下条件：
