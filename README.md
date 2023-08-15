@@ -106,7 +106,7 @@ OpenDataLab作为非盈利机构，倡导和谐友好的开源交流环境，若
 @misc{conghui2022opendatalab,
   title={OpenDataLab: Empowering General Artificial Intelligence with Open Datasets},
   author={Conghui He, Wei Li, Zhenjiang Jin, Bin Wang, Chao Xu, Dahua Lin},
-  journal={https://opendatalab.com/},
+  howpublished = {\url{https://opendatalab.com/}}
   year={2022}
 }
 ```
