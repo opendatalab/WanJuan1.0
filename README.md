@@ -1,5 +1,5 @@
 # Intern · WanJuan Multimodal Corpus
-[简体中文](./README.md)🀄 |**English**🌎
+[简体中文](./WanJuan1.0-CN.md)🀄 |**English**🌎
 
 ![Image](./images/01_宣传图.png)
 
