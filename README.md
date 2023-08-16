@@ -78,7 +78,7 @@ https://github.com/opendatalab/image-downloader
 
 - Introduction
 
-Intern · WanJuan 1.0 Video Dataset is mainly from China Central Radio & Television and Shanghai Media Group. It contains various types of program videos, with more than 1,000 video files and a data size of more than 900GB. The content covers military, literature and art, sports, nature, real society, knowledge, video art, media, food, historical documentaries, science and education, etc.
+Intern · WanJuan 1.0 Video Dataset is mainly from China Media Group and Shanghai Media Group. It contains various types of program videos, with more than 1,000 video files and a data size of more than 900GB. The content covers military, literature and art, sports, nature, real society, knowledge, video art, media, food, historical documentaries, science and education, etc.
 
 - Composition
 
