@@ -84,7 +84,7 @@ Intern · WanJuan 1.0 Video Dataset is mainly from China Central Radio & Televis
 
 ![Image](./images/Video_composition.png)
 
-## download link
+## Download link
 
 To download the complete dataset, please go to: 
 https://opendatalab.org.cn/WanJuan1.0
