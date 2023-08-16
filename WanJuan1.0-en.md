@@ -1,4 +1,4 @@
-# Intern · Wanjuan Multimodal Corpus
+# Intern · WanJuan Multimodal Corpus
 [简体中文](./README.md)🀄 |**English**🌎
 
 ![Image](./images/01_宣传图.png)
