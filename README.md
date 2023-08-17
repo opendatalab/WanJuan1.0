@@ -9,7 +9,7 @@ Intern · WanJuan 1.0 is the first open-source version of Intern · Wanjuan mult
 
 - In terms of multiple integration, Intern · WanJuan 1.0 contains multi-modal data such as text, image and video, covering multiple fields such as science and technology, literature, media, education and law. It improves the knowledge content, logical reasoning and Significant effect on generalization ability.
 
-- In terms of fine processing, Intern · WanJuan 1.0 has gone through refined data processing links such as language screening, text extraction, format standardization, data filtering and cleaning based on rules and models, multi-scale deduplication, and data quality assessment, so it can be more accurate It is well adapted to the subsequent model training requirements.
+- In terms of fine processing, Intern · WanJuan 1.0 has gone through refined data processing links such as language screening, text extraction, format standardization, data filtering and cleaning based on rules and models, multi-scale deduplication, and data quality assessment.Therefore, it can better meet the needs of subsequent model training.
 
 - In terms of value alignment, during the construction of Intern · WanJuan 1.0, the researchers focused on the alignment of the content with the mainstream Chinese values, and improved the purity of the corpus through the combination of algorithms and manual evaluation.
 
