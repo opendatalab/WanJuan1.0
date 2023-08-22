@@ -111,10 +111,12 @@ As a non-profit organization, OpenDataLab advocates a harmonious and friendly op
 ## Citation
 
 ```
-@misc{conghui2022opendatalab,
-  title={OpenDataLab: Empowering General Artificial Intelligence with Open Datasets},
-  author={Conghui He, Wei Li, Zhenjiang Jin, Bin Wang, Chao Xu, Dahua Lin},
-  howpublished = {\url{https://opendatalab.com/}}
-  year={2022}
+@misc{he2023wanjuan,
+      title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, 
+      author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and JiaQi Wang and Dahua Lin},
+      year={2023},
+      eprint={2308.10755},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
