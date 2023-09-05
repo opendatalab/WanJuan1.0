@@ -21,8 +21,9 @@
 
 论文地址：[https://arxiv.org/pdf/2308.10755.pdf](https://arxiv.org/pdf/2308.10755.pdf)
 
+<br>
 
-### 书生·万卷文本数据集1.0
+## 书生·万卷文本数据集1.0
 
 - 简介
 
@@ -42,12 +43,15 @@
 }
 ```
 
-**- 字段**
+**字段**  
 
-**  - id: **【字符串类型】文档的唯一ID。
-**  - content: **【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
+**-id:**【字符串类型】文档的唯一ID。  
 
-### 书生·万卷图文数据集1.0
+**- content:**【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。  
+
+<br>
+
+## 书生·万卷图文数据集1.0
 
 - 简介
 
@@ -75,13 +79,17 @@
 }
 ```
 
-**- 字段**
+**字段**  
 
-**  - id: **【字符串类型】文档的唯一ID。
-**  - img_list：**【数组类型】，文档内包含的图片列表。每张图片的信息包括网络url, url的sha256, 长度和宽度。
-**  - content: **【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
+**-id:**【字符串类型】文档的唯一ID。  
 
-### 书生·万卷视频数据集1.0
+**-img_list：**【数组类型】，文档内包含的图片列表。每张图片的信息包括网络url, url的sha256, 长度和宽度。  
+
+**-content:**【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。 
+
+<br>
+
+## 书生·万卷视频数据集1.0
 
 - 简介
 
@@ -94,9 +102,13 @@
 - 样例
 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjyS9H6XnjNibfo5DJh7hscAGmeSvJ6ohVgnBAKk2blTSVIqNUKXicQ8984g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
+<br>
+
 ## 下载地址
 
 完整数据集下载请前往：[https://opendatalab.org.cn/WanJuan1.0]([https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi))
+
+<br>
 
 ## 许可
 
@@ -108,12 +120,15 @@
 
 完整协议内容，请访问[CC BY 4.0协议全文](https://creativecommons.org/licenses/by/4.0/)。
 
+<br>
+
 ### 特别注意事项
 
 请注意，本数据集的某些子集可能受制于其他协议规定。在使用特定子集之前，请务必仔细阅读相关协议，确保合规使用。更为详细的协议信息，请在特定子集的相关文档或元数据中查看。
 
 OpenDataLab作为非盈利机构，倡导和谐友好的开源交流环境，若在开源数据集内发现有侵犯您合法权益的内容，可发送邮件至（OpenDataLab@pjlab.org.cn），邮件中请写明侵权相关事实的详细描述并向我们提供相关的权属证明资料。我们将于3个工作日内启动调查处理机制，并采取必要的措施进行处置（如下架相关数据）。但您应确保您投诉的真实性，否则采取措施后所产生的不利后果应由您独立承担。
 
+<br>
 
 ## 引文
 
