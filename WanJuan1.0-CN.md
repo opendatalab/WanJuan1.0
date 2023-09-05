@@ -8,12 +8,19 @@
 
 书生·万卷1.0为书生·万卷多模态语料库的首个开源版本，包含文本数据集、图文数据集、视频数据集三部分，数据总量超过2TB。基于大模型数据联盟构建的语料库，上海AI实验室对其中部分数据进行细粒度清洗、去重以及价值对齐，形成了书生·万卷1.0，具备多元融合、精细处理、价值对齐、易用高效等四大特征。
 
-- 在多元融合方面，书生·万卷1.0包含文本、图文、视频等多模态数据，范围覆盖科技、文学、媒体、教育、法律等多个领域，在训练提升模型知识含量、逻辑推理和泛化能力方面具有显著效果。
-- 在精细处理方面，书生·万卷1.0经历了语言甄别、正文抽取、格式标准化、基于规则及模型的数据过滤与清洗、多尺度去重、数据质量评估等精细化数据处理环节，因而能更好地适配后续的模型训练需求。
-- 在价值对齐方面，研究人员在书生·万卷1.0的构建过程中，着眼于内容与中文主流价值观的对齐，通过算法与人工评估结合的方式，提升了语料的纯净度。
-- 在易用高效方面，研究人员在书生·万卷1.0采用统一格式，并提供详细的字段说明和工具指导，使其兼顾了易用性和效率，可快速应用于语言、多模态等大模型训练。
+**- 在多元融合方面**，书生·万卷1.0包含文本、图文、视频等多模态数据，范围覆盖科技、文学、媒体、教育、法律等多个领域，在训练提升模型知识含量、逻辑推理和泛化能力方面具有显著效果。  
+
+**- 在精细处理方面**，书生·万卷1.0经历了语言甄别、正文抽取、格式标准化、基于规则及模型的数据过滤与清洗、多尺度去重、数据质量评估等精细化数据处理环节，因而能更好地适配后续的模型训练需求。  
+
+**- 在价值对齐方面**，研究人员在书生·万卷1.0的构建过程中，着眼于内容与中文主流价值观的对齐，通过算法与人工评估结合的方式，提升了语料的纯净度。  
+
+**- 在易用高效方面**，研究人员在书生·万卷1.0采用统一格式，并提供详细的字段说明和工具指导，使其兼顾了易用性和效率，可快速应用于语言、多模态等大模型训练。  
+
 
 目前，书生·万卷1.0已被应用于书生·多模态、书生·浦语的训练。通过对高质量语料的“消化”，书生系列模型在语义理解、知识问答、视觉理解、视觉问答等各类生成式任务表现出的优异性能。
+
+论文地址：[https://arxiv.org/pdf/2308.10755.pdf](https://arxiv.org/pdf/2308.10755.pdf)
+
 
 ### 书生·万卷文本数据集1.0
 
@@ -23,9 +30,10 @@
 
 - 组成
 
-![Image](./images/NLP_composition.png)
+![Image](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySwiaaegnHFwsq4cg1uX3MCNegNkC9CiaCXkHHUicvR951QNT5AdU8V86qg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 - 样例
+  ![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySsnhSxvOicUt6sZPRa9S2Yld1Fjd1IibHfyZVicYxCVyP8uHm08niaZxvSg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ```json
 {
@@ -34,10 +42,10 @@
 }
 ```
 
-- 字段
+**- 字段**
 
-  - id: 【字符串类型】文档的唯一ID。
-  - content: 【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
+**  - id: **【字符串类型】文档的唯一ID。
+**  - content: **【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
 
 ### 书生·万卷图文数据集1.0
 
@@ -45,7 +53,11 @@
 
 书生·万卷图文数据集1.0数据主要来自公开网页，经处理后形成图文交错文档。文档总量超过2200万个，数据大小超过140GB（不含图片），覆盖新闻事件、人物、自然景观、社会生活等多个领域。数据均为统一的jsonl格式，其中图片以url的形式给出，若需获取图片数据，可以采用以下脚本：https://github.com/opendatalab/image-downloader
 
+- 组成
+  ![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySTG634PTTIbmFIJlDZUfKGrXYibkgXCU3E58mrZIn0ibW0oia2mUOrv31Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
 - 样例
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySJWLdsY1qx1EAI8xAra8HnEunics0sqTQjNI6VhzM3SdINw3ojvtP9Uw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ```json
 {
@@ -63,11 +75,11 @@
 }
 ```
 
-- 字段
+**- 字段**
 
-  - id: 【字符串类型】文档的唯一ID。
-  - img_list：【数组类型】，文档内包含的图片列表。每张图片的信息包括网络url, url的sha256, 长度和宽度。
-  - content: 【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
+**  - id: **【字符串类型】文档的唯一ID。
+**  - img_list：**【数组类型】，文档内包含的图片列表。每张图片的信息包括网络url, url的sha256, 长度和宽度。
+**  - content: **【字符串类型】文档的内容，格式为普通Text格式或Markdown格式。
 
 ### 书生·万卷视频数据集1.0
 
@@ -77,11 +89,14 @@
 
 - 组成
 
-![Image](./images/Video_composition.png)
+![Image](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySQnSGLrzp6tUVn2P5kZ5RuERiaibf5vSFibJUZtFWhT8rZmaslBTjicBI4Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+- 样例
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjyS9H6XnjNibfo5DJh7hscAGmeSvJ6ohVgnBAKk2blTSVIqNUKXicQ8984g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ## 下载地址
 
-完整数据集下载请前往：https://opendatalab.org.cn/WanJuan1.0
+完整数据集下载请前往：[https://opendatalab.org.cn/WanJuan1.0]([https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi))
 
 ## 许可
 
