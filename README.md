@@ -19,6 +19,8 @@ Currently, Intern · WanJuan 1.0 has been applied to the training of those large
 
 Paper：[https://arxiv.org/pdf/2308.10755.pdf](https://arxiv.org/pdf/2308.10755.pdf)
 
+<br>
+
 ## Intern · WanJuan 1.0 - text dataset
 
 - Introduction
@@ -44,6 +46,7 @@ Intern · WanJuan 1.0 Text Dataset is composed of cleaned pre-training corpora f
 **  - id:** [string type] the unique ID of the document.
 **  - content:** [string type] the content of the document, the format is normal Text format or Markdown format.
 
+<br>
 
 ## Intern · WanJuan 1.0 - image-text dataset
 
@@ -80,6 +83,7 @@ https://github.com/opendatalab/image-downloader
 **  - img_list:** [array type], the list of images contained in the document. The information of each picture includes network url, sha256 of url, length and width.
 **  - content: **[string type] the content of the document, the format is normal Text format or Markdown format.
 
+<br>
 
 ## Intern · WanJuan 1.0 - video dataset
 
@@ -97,7 +101,7 @@ Intern · WanJuan 1.0 Video Dataset is mainly from China Media Group and Shangha
 ## Download link
 
 To download the complete dataset, please go to: 
-[https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi)
+[https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0/tree/main?source=R2l0aHVi)
 
 
 ## License
