@@ -7,15 +7,17 @@
 
 Intern · WanJuan 1.0 is the first open-source version of Intern · Wanjuan multimodal corpus, which includes three parts: text dataset, image-text dataset, and video dataset, with a total data volume exceeding 2TB. Based on the corpus built by the large model data alliance, the Shanghai AI Lab has carried out fine-grained cleaning, deduplication, and value alignment on some of the data, forming Intern · WanJuan 1.0, which has four characteristics those are multiple integration, fine processing, value alignment, ease of use and efficiency, etc. .
 
-- In terms of multiple integration, Intern · WanJuan 1.0 contains multi-modal data such as text, image and video, covering multiple fields such as science and technology, literature, media, education and law. It improves the knowledge content, logical reasoning and Significant effect on generalization ability.
+- **In terms of multiple integration**, Intern · WanJuan 1.0 contains multi-modal data such as text, image and video, covering multiple fields such as science and technology, literature, media, education and law. It improves the knowledge content, logical reasoning and Significant effect on generalization ability.
 
-- In terms of fine processing, Intern · WanJuan 1.0 has gone through refined data processing links such as language screening, text extraction, format standardization, data filtering and cleaning based on rules and models, multi-scale deduplication, and data quality assessment.Therefore, it can better meet the needs of subsequent model training.
+- **In terms of fine processing**, Intern · WanJuan 1.0 has gone through refined data processing links such as language screening, text extraction, format standardization, data filtering and cleaning based on rules and models, multi-scale deduplication, and data quality assessment.Therefore, it can better meet the needs of subsequent model training.
 
-- In terms of value alignment, during the construction of Intern · WanJuan 1.0, the researchers focused on the alignment of the content with the mainstream Chinese values, and improved the purity of the corpus through the combination of algorithms and manual evaluation.
+- **In terms of value alignment**, during the construction of Intern · WanJuan 1.0, the researchers focused on the alignment of the content with the mainstream Chinese values, and improved the purity of the corpus through the combination of algorithms and manual evaluation.
 
-- In terms of ease of use and efficiency, the researchers adopted a unified format in Intern · WanJuan 1.0, and provided detailed field descriptions and tool guidance, making it easy to use and efficient. Let it can be quickly applied to Multimodal Large Language Models (MLLMs) or large language model (LLM) training.
+- **In terms of ease of use and efficiency**, the researchers adopted a unified format in Intern · WanJuan 1.0, and provided detailed field descriptions and tool guidance, making it easy to use and efficient. Let it can be quickly applied to Multimodal Large Language Models (MLLMs) or large language model (LLM) training.
 
 Currently, Intern · WanJuan 1.0 has been applied to the training of those large models such as Intern Multimodal and Intern Puyu. Through the "digestion" of high-quality corpus, the Intern series models have shown excellent performance in various generative tasks such as semantic understanding, knowledge question answering, visual understanding, and visual question answering.
+
+Paper：[https://arxiv.org/pdf/2308.10755.pdf](https://arxiv.org/pdf/2308.10755.pdf)
 
 ## Intern · WanJuan 1.0 - text dataset
 
@@ -25,10 +27,11 @@ Intern · WanJuan 1.0 Text Dataset is composed of cleaned pre-training corpora f
 
 - Composition
 
-![Image](./images/NLP_composition.png)
+![Image](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySwiaaegnHFwsq4cg1uX3MCNegNkC9CiaCXkHHUicvR951QNT5AdU8V86qg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 - Sample
-
+  ![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySsnhSxvOicUt6sZPRa9S2Yld1Fjd1IibHfyZVicYxCVyP8uHm08niaZxvSg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+  
 ```json
 {
     "id": "BkORdv3xK7IA0HG7pccr",
@@ -36,10 +39,10 @@ Intern · WanJuan 1.0 Text Dataset is composed of cleaned pre-training corpora f
 }
 ```
 
-- Field
+**- Field**
 
-  - id: [string type] the unique ID of the document.
-  - content: [string type] the content of the document, the format is normal Text format or Markdown format.
+**  - id:** [string type] the unique ID of the document.
+**  - content:** [string type] the content of the document, the format is normal Text format or Markdown format.
 
 
 ## Intern · WanJuan 1.0 - image-text dataset
@@ -49,7 +52,11 @@ Intern · WanJuan 1.0 Text Dataset is composed of cleaned pre-training corpora f
 The data of Intern · WanJuan 1.0 - image-text dataset mainly come from public webpages, which are processed to form interlaced images and text documents. The total number of documents exceeds 22 million, and the data size exceeds 140GB (excluding pictures), covering news events, people, natural landscapes, social life and other fields. The data is in a unified jsonl format, where the pictures are given in the form of url. If you need to get the picture data, you can use the following script: 
 https://github.com/opendatalab/image-downloader
 
+- Composition
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySTG634PTTIbmFIJlDZUfKGrXYibkgXCU3E58mrZIn0ibW0oia2mUOrv31Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
 - Sample
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySJWLdsY1qx1EAI8xAra8HnEunics0sqTQjNI6VhzM3SdINw3ojvtP9Uw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ```json
 {
@@ -67,11 +74,11 @@ https://github.com/opendatalab/image-downloader
 }
 ```
 
-- Field
+**- Field**
 
-  - id: [string type] the unique ID of the document.
-  - img_list: [array type], the list of images contained in the document. The information of each picture includes network url, sha256 of url, length and width.
-  - content: [string type] the content of the document, the format is normal Text format or Markdown format.
+**  - id:** [string type] the unique ID of the document.
+**  - img_list:** [array type], the list of images contained in the document. The information of each picture includes network url, sha256 of url, length and width.
+**  - content: **[string type] the content of the document, the format is normal Text format or Markdown format.
 
 
 ## Intern · WanJuan 1.0 - video dataset
@@ -81,13 +88,16 @@ https://github.com/opendatalab/image-downloader
 Intern · WanJuan 1.0 Video Dataset is mainly from China Media Group and Shanghai Media Group. It contains various types of program videos, with more than 1,000 video files and a data size of more than 900GB. The content covers military, literature and art, sports, nature, real society, knowledge, video art, media, food, historical documentaries, science and education, etc.
 
 - Composition
+  
+![Image](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjySQnSGLrzp6tUVn2P5kZ5RuERiaibf5vSFibJUZtFWhT8rZmaslBTjicBI4Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
-![Image](./images/Video_composition.png)
+- Sample
+  ![](https://mmbiz.qpic.cn/sz_mmbiz_png/7yjDpC9UfD7vkz4XTP9dNyQZNeGmJjyS9H6XnjNibfo5DJh7hscAGmeSvJ6ohVgnBAKk2blTSVIqNUKXicQ8984g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ## Download link
 
 To download the complete dataset, please go to: 
-https://opendatalab.org.cn/WanJuan1.0
+[https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi)
 
 
 ## License
