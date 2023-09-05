@@ -106,7 +106,7 @@
 
 ## 下载地址
 
-完整数据集下载请前往：[https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi))
+完整数据集下载请前往：[https://opendatalab.org.cn/WanJuan1.0](https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0?source=R2l0aHVi)
 
 <br>
 
