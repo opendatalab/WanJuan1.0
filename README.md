@@ -115,12 +115,18 @@ The whole Intern · WanJuan 1.0 adopts the CC BY 4.0 license agreement. You are 
 For the complete content of the agreement, please visit [CC BY 4.0 Agreement Full Text](https://creativecommons.org/licenses/by/4.0/).
 
 
-### Special attention items
+## Special attention items
 
 Note that some subsets of this dataset may be subject to other agreements. Before using a specific subset, please be sure to read the relevant agreement carefully to ensure compliant use. For more detailed protocol information, please check the relevant documents or metadata of a specific subset.
 
 As a non-profit organization, OpenDataLab advocates a harmonious and friendly open source communication environment. If you find any content that infringes your legal rights in the open source dataset, you can send an email to (OpenDataLab@pjlab.org.cn), and please indicate the relevant infringement in the email. A detailed description of the facts and provide us with relevant ownership certification materials. We will initiate the investigation and processing mechanism within 3 working days, and take necessary measures to deal with it (as listed below). But you should ensure the authenticity of your complaint, otherwise you should be solely responsible for the adverse consequences after taking measures.
 
+## Change Log
+```
+2023-10-20: Security upgrade: further cleaning and improving the purity of the corpus, the total file size after the upgrade is 2047.6GB
+
+2023-08-14: First release
+```
 
 ## Citation
 
